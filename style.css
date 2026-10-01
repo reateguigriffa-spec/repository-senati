@@ -28,6 +28,27 @@ header{
 .img-logo{
     height: 32px;
     width: auto; /* por defecto quiero que se adapte */
-    display: block; /* eliminar espacios entre los lados*/
-    object-fit: contain; /* ajustar la imagen, sin recortarse a los lados */
+    display: block; /* Eliminar espacios entre los lados*/
+    object-fit: contain; /* Ajusta la imagen, sin recortarse a los lados */
+}
+
+.left-img{
+  display: flex;
+  align-items: center;
+}
+
+/* ==== MENU HAMBURGUESA ==== */
+.right-hamburguesa{
+  cursor: none; /* Desactivamos el cursor */
+  display: flex;
+  height: 28px;
+  width: 28px;
+  justify-content: space-between; /*Separacion entre ambos*/
+  flex-direction: column; /* Direccion Vertical  */
+}
+.right-hamburguesa span{
+  background-color: #000000; /* Color de la linea */
+  border-radius: 2px;  /* Se crea un gruosor de la linea */
+  width: 100%; /* La anchura */
+  height: 3px; /* Alto */
 }
